@@ -1,0 +1,13 @@
+This has the notes for the various commands to be used.
+
+1. 
+
+java -jar tools/PlayGame.jar maps/map7.txt 1000 1000 log.txt "java -jar example_bots/RandomBot.jar" "java -jar example_bots/DualBot.jar" | java -jar tools/ShowGame.jar
+
+2.
+
+java -jar tools/PlayGame.jar maps/map43.txt 1000 1000 log.txt "java -jar example_bots/RageBot.jar" "java -jar example_bots/ProspectorBot.jar" | java -jar tools/ShowGame.jar
+
+      pw._fleets.remove(Fleet)
+
+java -jar tools/PlayGame.jar maps/map7.txt 5000 1000 log.txt "java -jar example_bots/RandomBot.jar" "python codes/MyRLMABot.py 0.1 0.2 MAdatabase/mydatabase0.1-0.2" | java -jar tools/ShowGame.jar

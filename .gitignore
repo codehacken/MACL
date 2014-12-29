@@ -1,0 +1,9 @@
+# log files
+log.*
+*.log
+
+#.idea files
+.idea*
+
+# .DS_Store
+.DS_Store
